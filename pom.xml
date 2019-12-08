@@ -105,6 +105,8 @@
                     <argLine>
                         --illegal-access=permit
                     </argLine>
+                    <source>1.8</source>
+          			<target>1.8</target>                     
                 </configuration>
             </plugin>
             <plugin>
@@ -115,6 +117,8 @@
                     <argLine>
                         --illegal-access=permit
                     </argLine>
+                    <source>1.8</source>
+          			<target>1.8</target> 
                 </configuration>
                 <executions>
                     <execution>
