@@ -31,7 +31,7 @@ class IndexControllerTest implements ControllerTests {
         assertEquals("index", controller.index(), () -> "Another Expensive Message " +
                 "Make me only if you have to");
 
-        assertThat(controller.index()).isEqualTo("index");
+        assertThat(controller.index()).isEqualTo("index-TOFAIL");
     }
 
     @Test
